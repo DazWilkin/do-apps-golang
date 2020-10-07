@@ -1,6 +1,6 @@
-name: sample-golang
+name: do-apps-golang
 services:
-- name: web
-  github:
-    repo: digitalocean/sample-golang
-    branch: main
+  - name: web
+    github:
+      repo: DazWilkin/do-apps-golang
+      branch: main
